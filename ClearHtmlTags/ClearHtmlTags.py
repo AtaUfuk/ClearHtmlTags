@@ -14,7 +14,7 @@ def clearHtml(html_text):
     cleanedText=soup.get_text(separator=" ",strip=True)
     return cleanedText.replace("[\'","").replace("\']","")
 
-print("This program written for read html file and remove html tags(write a new file optional)")
+print("This program created for read html file and remove html tags(write a new file optional)")
 inputText = "Please insert html file path:"
 htmlPath = input(inputText.encode('utf-8').decode('utf-8'))
 writeInputText="If you want to write a new file please insert new file path(if you don't want to write just press Enter)"
