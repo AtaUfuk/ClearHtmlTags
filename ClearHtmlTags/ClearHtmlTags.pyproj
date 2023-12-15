@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0e27a86d-3651-4f9a-a999-6aceb4ec49a3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ClearHtmlTags.py</StartupFile>
+    <StartupFile>GetSvg.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ClearHtmlTags.py" />
+    <Compile Include="GetSvg.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

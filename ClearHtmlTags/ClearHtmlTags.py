@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup
 import os
 
-def clearHtml(html_text):
+def ClearHtml(html_text):
     # soup = BeautifulSoup(html_text, 'html.parser')
     # def filteredText(tag):
     #     if tag.name in ['svg','div','p','text','ul','li','strong','em','pre','span','b']:
@@ -22,7 +22,7 @@ writePath=input(writeInputText.encode('utf-8').decode('utf-8'))
 with open(htmlPath,'r') as f:
     lines=f.readlines()
 
-clearedText = clearHtml(str(lines))
+clearedText = ClearHtml(str(lines))
 if not writePath:
     print(clearedText)
 else:
